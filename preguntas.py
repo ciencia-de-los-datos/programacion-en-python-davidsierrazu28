@@ -14,7 +14,7 @@ Utilice el archivo `data.csv` para resolver las preguntas.
 
 
 def pregunta_01():
-    x = open ('C:/Users/david/OneDrive/Documentos/especializacion/ciencia_datos/programacion-en-python-davidsierrazu28-main/data.csv','r').readlines()
+    x = open ('data.csv','r').readlines()
     x= [z.split('\t') for z in x]
     columna1 = [int(z[1]) for z in x]
     suma = sum(columna1)
@@ -22,7 +22,7 @@ def pregunta_01():
 
 
 def pregunta_02():
-    x = open ('C:/Users/david/OneDrive/Documentos/especializacion/ciencia_datos/programacion-en-python-davidsierrazu28-main/data.csv','r').readlines()
+    x = open ('data.csv','r').readlines()
     x = [z.split('\t') for z in x]
     columna0 = [z[0] for z in x]
     letras_unicas = sorted(list(set(columna0)))
@@ -31,7 +31,7 @@ def pregunta_02():
 
 
 def pregunta_03():
-    x = open ('C:/Users/david/OneDrive/Documentos/especializacion/ciencia_datos/programacion-en-python-davidsierrazu28-main/data.csv','r').readlines()
+    x = open ('data.csv','r').readlines()
     x = [z.split('\t') for z in x]
     columna0= [z[0] for z in x]
     columna1 = [z[1] for z in x]
@@ -47,7 +47,7 @@ def pregunta_03():
 
 
 def pregunta_04():
-    x = open ('C:/Users/david/OneDrive/Documentos/especializacion/ciencia_datos/programacion-en-python-davidsierrazu28-main/data.csv','r').readlines()
+    x = open ('data.csv','r').readlines()
     x = [z.split('\t') for z in x]
     columna2 = [z[2] for z in x]
     mes = [t.split('-')[1] for t in columna2]
@@ -62,7 +62,7 @@ def pregunta_04():
     return rpta
 
 def pregunta_05():
-    x = open ('C:/Users/david/OneDrive/Documentos/especializacion/ciencia_datos/programacion-en-python-davidsierrazu28-main/data.csv','r').readlines()
+    x = open ('data.csv','r').readlines()
     x = [z.split('\t') for z in x]
     columna0= [z[0] for z in x]
     columna1 = [z[1] for z in x]
@@ -83,7 +83,7 @@ def pregunta_05():
 
 
 def pregunta_06():
-    x = open ('C:/Users/david/OneDrive/Documentos/especializacion/ciencia_datos/programacion-en-python-davidsierrazu28-main/data.csv','r').readlines()
+    x = open ('data.csv','r').readlines()
     x = [z.split('\t') for z in x]
     columna4= [z[4] for z in x]
     columna4= [z.replace('\n', '') for z in columna4]
@@ -108,7 +108,7 @@ def pregunta_06():
     
 
 def pregunta_07():
-    x = open ('C:/Users/david/OneDrive/Documentos/especializacion/ciencia_datos/programacion-en-python-davidsierrazu28-main/data.csv','r').readlines()
+    x = open ('data.csv','r').readlines()
     x = [z.split('\t') for z in x]
     columna0 = [z[0] for z in x]
     columna1 = [int(z[1]) for z in x]
@@ -125,7 +125,7 @@ def pregunta_07():
 
 
 def pregunta_08():
-    x = open ('C:/Users/david/OneDrive/Documentos/especializacion/ciencia_datos/programacion-en-python-davidsierrazu28-main/data.csv','r').readlines()
+    x = open ('data.csv','r').readlines()
     x = [z.split('\t') for z in x]
     columna0 = [z[0] for z in x]
     columna1 = [int(z[1]) for z in x]
@@ -148,7 +148,7 @@ def pregunta_08():
     return letras_unicas
 
 def pregunta_09():
-    x = open ('C:/Users/david/OneDrive/Documentos/especializacion/ciencia_datos/programacion-en-python-davidsierrazu28-main/data.csv','r').readlines()
+    x = open ('data.csv','r').readlines()
     x = [z.split('\t') for z in x]
     columna4 = [z[4] for z in x]
     columna4= [z.replace('\n', '') for z in columna4]
@@ -168,7 +168,7 @@ def pregunta_09():
 
 
 def pregunta_10():
-    x = open ('C:/Users/david/OneDrive/Documentos/especializacion/ciencia_datos/programacion-en-python-davidsierrazu28-main/data.csv','r').readlines()
+    x = open ('data.csv','r').readlines()
     x = [z.split('\t') for z in x]
     columna0 = [z[0] for z in x]
     columna3 = [z[3] for z in x]
@@ -188,7 +188,7 @@ def pregunta_10():
 
 
 def pregunta_11():
-    x = open ('C:/Users/david/OneDrive/Documentos/especializacion/ciencia_datos/programacion-en-python-davidsierrazu28-main/data.csv','r').readlines()
+    x = open ('data.csv','r').readlines()
     x = [z.split('\t') for z in x]
     columna1 = [int(z[1]) for z in x]
     columna3 = [z[3] for z in x]
@@ -207,7 +207,7 @@ def pregunta_11():
 
 
 def pregunta_12():
-    x = open ('C:/Users/david/OneDrive/Documentos/especializacion/ciencia_datos/programacion-en-python-davidsierrazu28-main/data.csv','r').readlines()
+    x = open ('data.csv','r').readlines()
     x = [z.replace('\n','') for z in x]
     x = [z.split("\t") for z in x]
     columna0 = [z[0] for z in x]
